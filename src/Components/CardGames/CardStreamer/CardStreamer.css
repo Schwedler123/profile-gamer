@@ -1,0 +1,23 @@
+.container-principal-streamers {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.streamer-card {
+  width: 5vw;
+  height: 5vw;
+  margin-top: 1vw;
+  border-radius: 9vw;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .streamer-card {
+    width: 9vw;
+    height: 9vw;
+    margin-top: 1vw;
+    border-radius: 9vw;
+    cursor: pointer;
+  }
+}

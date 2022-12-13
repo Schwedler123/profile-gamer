@@ -1,0 +1,139 @@
+:root {
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(240, 5%, 64.9%);
+  --card-color: hsl(257.1, 15.6%, 17.6%);
+  --body-color: hsl(0, 0%, 11.8%);
+}
+
+.container-principal {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.container-img {
+  display: relative;
+}
+
+.section-principal {
+  display: flex;
+
+  position: absolute;
+}
+
+.container-header {
+  justify-content: center;
+  margin-top: 3.2vw;
+}
+
+.background-img {
+  width: 100vw;
+  min-height: 100vw;
+}
+
+.img-header {
+  width: 12vw;
+  border-radius: 7vw;
+  border: 5px solid #f5f5f5;
+}
+
+.my-games {
+  display: flex;
+  width: 40vw;
+  height: 17vw;
+  margin-top: 17vw;
+  position: absolute;
+  padding: 2.4vw 3.2vw 3.2vw 3.2vw;
+  border: 5px solid #f5f5f5;
+  border-radius: 0.8vw;
+  background-color: var(--card-color);
+}
+
+.my-streamers {
+  display: flex;
+  width: 40vw;
+  height: 17vw;
+  margin-top: 37vw;
+  position: absolute;
+  padding: 2.4vw 3.2vw 3.2vw 3.2vw;
+  border: 5px solid #f5f5f5;
+  border-radius: 0.8vw;
+  background-color: var(--card-color);
+}
+
+.my-redes {
+  display: flex;
+  width: 40vw;
+  height: 17vw;
+  margin-top: 57vw;
+  position: absolute;
+  padding: 2.4vw 3.2vw 3.2vw 3.2vw;
+  border: 5px solid #f5f5f5;
+  border-radius: 0.8vw;
+  background-color: var(--card-color);
+}
+
+.title-games {
+  color: var(--title-color);
+  font: 700 1.4vw "Inter", sans-serif;
+}
+.content-games {
+  color: var(--title-color);
+  font: 400 1.03vw "Inter", sans-serif;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+@media (max-width: 768px) {
+  .background-img {
+    width: 100vw;
+    height: 174vw;
+  }
+
+  .my-games {
+    width: 50vw;
+    height: 30vw;
+    margin-top: 25vw;
+    border: 2px solid #f5f5f5;
+    border-radius: 0.8vw;
+  }
+
+  .my-streamers {
+    width: 50vw;
+    height: 30vw;
+    margin-top: 60vw;
+    border: 2px solid #f5f5f5;
+    border-radius: 0.8vw;
+  } 
+
+  .my-redes {
+    width: 50vw;
+    height: 30vw;
+    margin-top: 95vw;
+    border: 2px solid #f5f5f5;
+    border-radius: 0.8vw;
+  }
+
+  .img-header {
+    width: 17vw;
+    border-radius: 9vw;
+    border: 2px solid #f5f5f5;
+  }
+
+  .title-games {
+    color: var(--title-color);
+    font: 700 2vw "Inter", sans-serif;
+  }
+  .content-games {
+    color: var(--title-color);
+    font: 400 1.7vw "Inter", sans-serif;
+  }
+  
+}
+
+
+

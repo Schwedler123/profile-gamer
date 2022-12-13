@@ -1,0 +1,23 @@
+.game-card {
+  width: 7vw;
+  height: 9vw;
+  margin-top: 1vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+
+.container-principal-dinamic {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+@media (max-width: 768px) {
+  .game-card {
+    width: 10vw;
+    height: 12vw;
+    margin-top: 1vw;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+}
