@@ -5,14 +5,14 @@ export function CardGamer() {
   const cardsDinamic = [
     {
       id: 1,
-      urlImgPokemon: './src/assets/card-pokemon-unite.jpg',
+      urlImgPokemon: 'https://static-cdn.jtvnw.net/ttv-boxart/518379_IGDB-90x120.jpg',
       alt: 'card do pokemon de capa',
       id: 2,
-      urlImgWarzone: './src/assets/card-warzone.jpg',
+      urlImgWarzone: 'https://static-cdn.jtvnw.net/ttv-boxart/512710-144x192.jpg',
       id: 3,
-      urlImgRocketLeague: './src/assets/card-rocket-league.jpg',
+      urlImgRocketLeague: 'https://static-cdn.jtvnw.net/ttv-boxart/30921-144x192.jpg',
       id: 4,
-      urlImgFortnite: './src/assets/card-fortnite.jpg',
+      urlImgFortnite: 'https://static-cdn.jtvnw.net/ttv-boxart/33214-144x192.jpg',
     }
   ];
 

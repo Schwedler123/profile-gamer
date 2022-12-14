@@ -4,11 +4,11 @@ export function CardStreamer() {
   const cardsStreamer = [
     {
       id: 1,
-      urlStreamerOne: './src/assets/paulinho-loko-streamer.png',
+      urlStreamerOne: 'https://static-cdn.jtvnw.net/jtv_user_pictures/d96bbd7a-26e5-4c5e-b6a5-149d708a973b-profile_image-70x70.png',
       id: 2,
-      urlStreamertwo: './src/assets/gaules-streamer.png',
+      urlStreamertwo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/f4b12683-57ff-4b57-926a-67512b43a7ff-profile_image-70x70.png',
       id: 3,
-      urlStreamertrhee: './src/assets/dilera-streamer.png',
+      urlStreamertrhee: 'https://static-cdn.jtvnw.net/jtv_user_pictures/e80bff37-09c1-46f0-abf7-e72683dab442-profile_image-70x70.png',
 
     }
   ];

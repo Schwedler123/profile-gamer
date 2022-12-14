@@ -4,13 +4,13 @@ export function IconsComp() {
   const icons = [
     {
       id: 1,
-      iconFace: './src/assets/facebook.png',
+      iconFace: 'https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-256.png',
       id: 2,
-      iconDiscord: './src/assets/discord.png',
+      iconDiscord: 'https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png',
       id: 3,
-      iconLinked: './src/assets/linkedin.png',
+      iconLinked: 'https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-06-256.png',
       id: 4,
-      icongit: './src/assets/github.png',
+      icongit: 'https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-256.png',
     }
   ];
 
