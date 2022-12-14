@@ -9,6 +9,6 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: var(--body-color);
+  background-color: rgb(37, 25, 66);
   overflow-x: hidden;
 }
